@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Algorithm Visualizer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="scanlines"></div>
+  <div class="grid-bg"></div>
+
+  <header>
+    <div class="header-inner">
+      <div class="title-block">
+        <span class="title-label">// SYSTEM ACTIVE</span>
+        <h1>ALGO<span class="accent">_</span>VIZ</h1>
+        <span class="subtitle">SORTING ALGORITHM VISUALIZER v1.0</span>
+      </div>
+      <div class="header-stats">
+        <div class="stat">
+          <span class="stat-label">COMPARISONS</span>
+          <span class="stat-value" id="comparisons">0</span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">SWAPS</span>
+          <span class="stat-value" id="swaps">0</span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">STATUS</span>
+          <span class="stat-value" id="status-text">IDLE</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="controls">
+    <div class="control-group">
+      <button id="generate" class="btn btn-generate">
+        <span class="btn-icon">⟳</span> GENERATE
+      </button>
+    </div>
+
+    <div class="control-group slider-group">
+      <label class="slider-label">
+        <span>ARRAY SIZE</span>
+        <span id="size-val">30</span>
+      </label>
+      <input type="range" id="size" min="10" max="80" value="30" />
+    </div>
+
+    <div class="control-group slider-group">
+      <label class="slider-label">
+        <span>SPEED</span>
+        <span id="speed-val">50</span>
+      </label>
+      <input type="range" id="speed" min="1" max="200" value="50" />
+    </div>
+
+    <div class="control-group algo-buttons">
+      <button id="bubble" class="btn btn-algo">BUBBLE</button>
+      <button id="selection" class="btn btn-algo">SELECT</button>
+      <button id="insertion" class="btn btn-algo">INSERT</button>
+      <button id="merge" class="btn btn-algo">MERGE</button>
+      <button id="quick" class="btn btn-algo">QUICK</button>
+    </div>
+  </section>
+
+  <div class="complexity-bar">
+    <span id="algo-name">—</span>
+    <span id="algo-time">Time: —</span>
+    <span id="algo-space">Space: —</span>
+    <span id="algo-stable">Stable: —</span>
+  </div>
+
+  <div id="array-container"></div>
+
+  <div class="legend">
+    <span class="legend-item"><span class="dot" style="background:#00d4ff"></span> DEFAULT</span>
+    <span class="legend-item"><span class="dot" style="background:#ff3d5a"></span> COMPARING</span>
+    <span class="legend-item"><span class="dot" style="background:#ffd700"></span> MIN/KEY</span>
+    <span class="legend-item"><span class="dot" style="background:#bf00ff"></span> PIVOT</span>
+    <span class="legend-item"><span class="dot" style="background:#00ff88"></span> SORTED</span>
+  </div>
+
+  <script src="utils/sleep.js"></script>
+  <script src="utils/swap.js"></script>
+  <script src="utils/barUtils.js"></script>
+  <script src="algorithms/bubble.js"></script>
+  <script src="algorithms/selection.js"></script>
+  <script src="algorithms/insertion.js"></script>
+  <script src="algorithms/merge.js"></script>
+  <script src="algorithms/quick.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
