@@ -8,7 +8,7 @@ The application allows users to generate random arrays, control animation speed,
 
 ## 📸 Preview
 
-![AlgoVisualizer Preview](screenshot.png)
+![AlgoVisualizer Preview](screenshot.jpg)
 
 ---
 
