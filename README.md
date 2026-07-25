@@ -1,6 +1,6 @@
 # 🚀 AlgoVisualizer
 
-An interactive **Sorting Algorithm Visualizer** built using **HTML, CSS, and JavaScript** that helps users understand how different sorting algorithms work through real-time animations and performance statistics.
+An interactive **Sorting Algorithm Visualizer** built using **HTML, CSS, and JavaScript** that helps users understand how different sorting algorithms work through real-time animations.
 
 The application allows users to generate random arrays, control animation speed, adjust array size, and visualize multiple sorting algorithms while tracking comparisons and swaps.
 
@@ -8,11 +8,7 @@ The application allows users to generate random arrays, control animation speed,
 
 ## 📸 Preview
 
-> Add a screenshot or GIF here.
-
-```md
 ![AlgoVisualizer Preview](screenshot.png)
-```
 
 ---
 
@@ -26,18 +22,17 @@ https://arpitbreathes.github.io/AlgoVisualizer/
 
 ## ✨ Features
 
-- 📊 Visualize multiple sorting algorithms
-- 🎛️ Adjustable array size
-- ⚡ Adjustable animation speed
-- 🔄 Generate random arrays
-- 📈 Live comparison counter
-- 🔁 Live swap counter
-- 📌 Current algorithm information
-- ⏱️ Time Complexity display
-- 💾 Space Complexity display
-- ✅ Stable / Unstable indication
-- 🎨 Modern cyberpunk-inspired UI
-- 📱 Responsive design
+- Interactive visualization of sorting algorithms
+- Adjustable array size
+- Adjustable animation speed
+- Random array generation
+- Live comparison counter
+- Live swap counter
+- Algorithm information panel
+- Time & Space complexity display
+- Stable / Unstable indicator
+- Modern cyberpunk-inspired interface
+- Responsive layout
 
 ---
 
@@ -53,11 +48,11 @@ https://arpitbreathes.github.io/AlgoVisualizer/
 
 ---
 
-## 🛠️ Built With
+## 🛠️ Tech Stack
 
 - HTML5
 - CSS3
-- Vanilla JavaScript
+- JavaScript
 
 ---
 
@@ -87,7 +82,7 @@ AlgoVisualizer/
 
 ---
 
-## 🚀 How to Run
+## 🚀 Getting Started
 
 Clone the repository
 
@@ -95,49 +90,43 @@ Clone the repository
 git clone https://github.com/ArpitBreathes/AlgoVisualizer.git
 ```
 
-Open the project
+Navigate to the project
 
 ```bash
 cd AlgoVisualizer
 ```
 
-Open
+Open `index.html` in your browser.
 
-```text
-index.html
-```
-
-in your browser.
-
-No installation or dependencies are required.
+No installation or additional dependencies are required.
 
 ---
 
-## 🎯 Learning Outcomes
+## 🎯 What I Learned
 
-Building this project helped me understand:
+This project helped me strengthen my understanding of:
 
-- How different sorting algorithms work internally
-- DOM manipulation using JavaScript
-- Asynchronous animations using async/await
-- Visualizing algorithms through dynamic UI updates
+- Sorting algorithms and their behavior
+- DOM manipulation with JavaScript
+- Asynchronous programming using `async/await`
+- Creating smooth UI animations
 - Organizing JavaScript into reusable modules
-- Creating interactive user interfaces
-- Performance metrics visualization
+- Building interactive web applications
+- Displaying algorithm complexity and performance metrics
 
 ---
 
-## 📚 Future Improvements
+## 🚀 Future Improvements
 
 - Heap Sort
 - Counting Sort
 - Radix Sort
 - Shell Sort
 - Searching Algorithm Visualizer
-- Graph Algorithms
-- Dark / Light Theme
+- Graph Algorithm Visualizer
+- Dark & Light Theme
 - Sound Effects
-- Mobile Optimization
+- Mobile optimizations
 
 ---
 
@@ -145,11 +134,10 @@ Building this project helped me understand:
 
 **Arpit Pandey**
 
-GitHub:
-https://github.com/ArpitBreathes
+GitHub: https://github.com/ArpitBreathes
 
 ---
 
-⭐ If you found this project interesting, consider giving it a star!
+⭐ If you found this project useful, consider giving it a star!
 
-> *"Visualizing algorithms makes learning easier and more intuitive."*
+> *"Understanding algorithms becomes much easier when you can visualize every step."*
